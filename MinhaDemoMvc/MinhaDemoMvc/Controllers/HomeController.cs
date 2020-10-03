@@ -15,7 +15,7 @@ namespace MinhaDemoMvc.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy(string id, string categoria, string queryString)
         {
             return View();
         }
