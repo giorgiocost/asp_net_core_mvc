@@ -8,19 +8,26 @@ using MinhaDemoMvc.Models;
 
 namespace MinhaDemoMvc.Controllers
 {
+    [Route("")]
+    [Route("gestao-clientes")]
     public class HomeController : Controller
     {
+        [Route("")]
+        [Route("pagina-inicial")]
         public IActionResult Index()
         {
             return View();
         }
-
+       
+        [Route("privacidade")]
+        [Route("politica-de-privacidade")]
         public IActionResult Privacy(string id, string categoria, string queryString)
         {
             return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [Route("error")]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

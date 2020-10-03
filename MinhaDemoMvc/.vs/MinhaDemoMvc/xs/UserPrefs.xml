@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{E104FDD7-EDDF-4B38-9680-551F46190CF4}|Default">
   <MonoDevelop.Ide.ItemProperties.MinhaDemoMvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Controllers/HomeController.cs">
     <Files>
-      <File FileName="MinhaDemoMvc/Controllers/HomeController.cs" Line="21" Column="1" />
-      <File FileName="MinhaDemoMvc/Startup.cs" Line="64" Column="63" />
-      <File FileName="MinhaDemoMvc/Program.cs" Line="17" Column="1" />
+      <File FileName="MinhaDemoMvc/Startup.cs" Line="67" Column="37" />
+      <File FileName="MinhaDemoMvc/Controllers/HomeController.cs" Line="11" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MinhaDemoMvc" expanded="True">
             <Node name="MinhaDemoMvc" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -23,7 +23,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/mac/Desktop/workspace/asp_net_core_mvc/MinhaDemoMvc/MinhaDemoMvc/Controllers/HomeController.cs" relfile="MinhaDemoMvc/Controllers/HomeController.cs" line="19" column="1" />
+      <Breakpoint file="/Users/mac/Desktop/workspace/asp_net_core_mvc/MinhaDemoMvc/MinhaDemoMvc/Controllers/HomeController.cs" relfile="MinhaDemoMvc/Controllers/HomeController.cs" line="20" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
