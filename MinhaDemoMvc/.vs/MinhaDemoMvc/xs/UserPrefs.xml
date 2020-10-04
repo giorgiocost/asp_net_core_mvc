@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{E104FDD7-EDDF-4B38-9680-551F46190CF4}|Default">
   <MonoDevelop.Ide.ItemProperties.MinhaDemoMvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Models/Filme.cs">
     <Files>
-      <File FileName="MinhaDemoMvc/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="MinhaDemoMvc/Controllers/HomeController.cs" Line="20" Column="27" />
+      <File FileName="MinhaDemoMvc/Models/Filme.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MinhaDemoMvc" expanded="True">
             <Node name="MinhaDemoMvc" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Filme.cs" selected="True" />
               </Node>
             </Node>
           </Node>
