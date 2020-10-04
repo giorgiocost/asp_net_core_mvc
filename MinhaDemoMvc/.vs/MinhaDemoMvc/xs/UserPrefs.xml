@@ -2,8 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.MinhaDemoMvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Controllers/HomeController.cs">
     <Files>
-      <File FileName="MinhaDemoMvc/Startup.cs" Line="67" Column="37" />
-      <File FileName="MinhaDemoMvc/Controllers/HomeController.cs" Line="11" Column="11" />
+      <File FileName="MinhaDemoMvc/Controllers/HomeController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,9 +21,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/mac/Desktop/workspace/asp_net_core_mvc/MinhaDemoMvc/MinhaDemoMvc/Controllers/HomeController.cs" relfile="MinhaDemoMvc/Controllers/HomeController.cs" line="20" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

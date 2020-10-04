@@ -24,7 +24,7 @@ namespace MinhaDemoMvc.Controllers
         [Route("politica-de-privacidade")]
         public IActionResult Privacy(string id, Guid categoria, string queryString)
         {
-            return View();
+            return Json("{ 'nome': 'giorgio' }");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
