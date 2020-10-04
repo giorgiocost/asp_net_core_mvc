@@ -14,6 +14,7 @@ namespace MinhaDemoMvc.Controllers
     {
         [Route("")]
         [Route("pagina-inicial")]
+        [Route("pagina-inicial/{id:int}/{categoria:guid}")]
         public IActionResult Index()
         {
             return View();
@@ -21,7 +22,7 @@ namespace MinhaDemoMvc.Controllers
        
         [Route("privacidade")]
         [Route("politica-de-privacidade")]
-        public IActionResult Privacy(string id, string categoria, string queryString)
+        public IActionResult Privacy(string id, Guid categoria, string queryString)
         {
             return View();
         }
