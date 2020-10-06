@@ -17,14 +17,38 @@ namespace MinhaDemoMvc.Controllers
         [Route("pagina-inicial/{id:int}/{categoria:guid}")]
         public IActionResult Index()
         {
+            var filme = new Filme
+            {
+                Titulo = "Oi",
+                Valor = 12,
+                Avaliacao = 10,
+                Genero = null,
+                DataLancamento = DateTime.Now
+            };
+
+            //return RedirectToAction("Privacy", filme);
             return View();
         }
        
         [Route("privacidade")]
         [Route("politica-de-privacidade")]
-        public IActionResult Privacy(string id, Guid categoria, string queryString)
+        public IActionResult Privacy(
+            //string id, Guid categoria, string queryString
+            Filme filme
+        )
         {
-            return Json("{ 'nome': 'giorgio' }");
+            if(ModelState.IsValid)
+            {
+
+            }
+
+            foreach (var error in ModelState.Values.SelectMany(m => m.Errors))
+            {
+                Console.WriteLine(error.ErrorMessage);
+            }
+            return View();
+
+            //return Json("{ 'nome': 'giorgio' }");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
