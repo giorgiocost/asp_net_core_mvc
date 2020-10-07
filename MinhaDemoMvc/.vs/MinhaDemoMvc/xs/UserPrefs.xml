@@ -1,15 +1,22 @@
 ﻿<Properties StartupConfiguration="{E104FDD7-EDDF-4B38-9680-551F46190CF4}|Default">
   <MonoDevelop.Ide.ItemProperties.MinhaDemoMvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Views/Filme/Adicionar.cshtml">
+    <Files>
+      <File FileName="MinhaDemoMvc/Views/Filmes/Index (copy).cshtml" Line="19" Column="39" />
+      <File FileName="MinhaDemoMvc/Controllers/FilmeController.cs" Line="12" Column="39" />
+      <File FileName="MinhaDemoMvc/Views/Shared/_Layout.cshtml" Line="35" Column="123" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MinhaDemoMvc" expanded="True" selected="True">
+          <Node name="MinhaDemoMvc" expanded="True">
             <Node name="MinhaDemoMvc" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+                <Node name="Filme" expanded="True">
+                  <Node name="Adicionar.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
             </Node>

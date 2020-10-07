@@ -1,10 +1,5 @@
-@page
-@{
-    ViewData["Title"] = "Default";
-}
+@model int
 
-<h1>Default</h1>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+<span class="cart">
+    @Model
+</span>

@@ -20,4 +20,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ViewComponents\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Carrinho\" />
+    <Folder Include="Views\Filme\" />
+  </ItemGroup>
 </Project>
