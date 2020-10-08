@@ -2,9 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.MinhaDemoMvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Views/Filme/Adicionar.cshtml">
     <Files>
-      <File FileName="MinhaDemoMvc/Views/Filmes/Index (copy).cshtml" Line="19" Column="39" />
-      <File FileName="MinhaDemoMvc/Controllers/FilmeController.cs" Line="12" Column="39" />
       <File FileName="MinhaDemoMvc/Views/Shared/_Layout.cshtml" Line="35" Column="123" />
+      <File FileName="MinhaDemoMvc/Views/Filme/Adicionar.cshtml" Line="15" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +16,6 @@
                 <Node name="Filme" expanded="True">
                   <Node name="Adicionar.cshtml" selected="True" />
                 </Node>
-                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
