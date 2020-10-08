@@ -18,7 +18,8 @@ namespace MinhaDemoMvc.Models
         [Display(Name = "Data de lançamento")]
         public DateTime DataLancamento { get; set; }
 
-        [RegularExpression(@"ˆ[A-Z]+[a-zA-Z\u00C0-\u00FF""\w-]*$", ErrorMessage = "Genero em formato inválido")]
+        
+        [RegularExpression(@"^[A-Z]+[a-zA-Z\u00C0-\u00FF""'\w-]*$", ErrorMessage = "Genero em formato inválido")]
         [StringLength(30, ErrorMessage = "Máximo de 30 caracteres"), Required(ErrorMessage = "Preencha o campo genero")]
         public string Genero { get; set; }
 
@@ -27,7 +28,7 @@ namespace MinhaDemoMvc.Models
         [Column(TypeName = "decimal(18,2)")]
         public decimal Valor { get; set; }
 
-        [RegularExpression(@"ˆ[0-5]*$", ErrorMessage = "Somente números")]
+        [RegularExpression(@"^[0-5]*$", ErrorMessage = "Somente números")]
         [Display(Name = "Avaliação")]
         [Required(ErrorMessage = "Preencher o campo Avaliação")]
         public int Avaliacao { get; set; }
